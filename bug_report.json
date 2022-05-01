@@ -1,1 +1,14 @@
-
+{
+"summary": "The user cannot log in the site via google account",
+ "type": "bug",
+ "component": "authorisation",
+ "severity": "minor",
+  "environment": "z24shop",
+  "test date": "02.10.21",
+  "precondition": "have an account in google",
+  "description": "The bug is produced while trying to log in the site via google account. The user is sent back to the home page with unsuccessful attempt to log in",
+  "steps to reproduce": "1. go to site z24.shop;
+                         2. click on увійти; 
+                         3. click on увійти через google",
+  "actual result": " the button увійти за допомогою google is disabled"
+}
